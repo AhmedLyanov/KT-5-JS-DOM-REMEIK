@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinkoff</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="tinkoffLogo.jpg" type="image/x-icon">
+</head>
+<body>
+  
+<header style="background-color: rgb(255, 255, 255); height: 100px; width: 100%; box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3); border-radius: 20px;" >
+  <div class="HeaderFathBLock" style="display: flex;">
+
+
+    <div class="Logo">
+        <img src="logo.png" width="300px" height="100px" >
+    </div>
+
+    <div class="NumberTinnkof" style="margin-left: auto;">
+        <p style="margin-right: 100px; margin-top: 40px; font-family: sans-serif; color: blue;">8 800 700-22-66</p>
+    </div>
+
+  </div> 
+</header>
+
+
+
+
+
+
+
+
+
+
+<button class="CreateCard" onclick="OpenCardRedactor('NextButton')" style="background-color: rgb(255, 214, 8); width: 150px; height: 50px; margin-top: 30px; border-radius: 20px; text-align: center; margin-left: 860px; margin-top: 160px;">
+    <p style=" font-family: sans-serif; color: rgb(0, 0, 0);">Создать карту</p>
+</button>
+
+
+
+
+
+
+
+<main id="CreaterCard" style="height: 1500px; background-color: rgb(217, 217, 217); margin-top: 650px; margin-left: 300px; margin-right: 300px; border-radius: 30px;">
+ 
+<div class="FatherCreatorCards">
+
+
+     <div class="Cards" style="margin-left: 430px;">
+
+        <p style="font-family: sans-serif; font-size: 30px; margin-left: 20px;">Выберите дизайн карты</p>
+       <img src="СardDefault.png" width="380px" height="250px" style="margin-top: 15px;" id="DefaultDesign">
+
+     </div>
+
+
+
+
+
+     <div class="CardsDesignFather" style="display: flex; padding-top: 70px;">
+
+          <div class="CardPhoto1" onclick="SetDesign1()"> <img src="СardDefault.png" width="280px" height="160px" style="margin-left: 20px;"></div>
+          <div class="CardPhoto2" onclick="SetDesign2()"> <img src="design1.png" width="280px" height="160px" style="margin-left: 25px;"></div>
+          <div class="CardPhoto3" onclick="SetDesign3()"> <img src="design2.png" width="280px" height="160px" style="margin-left: 25px;"></div>
+          <div class="CardPhoto4" onclick="SetDesign4()"> <img src="designnew.jpg" width="280px" height="160px" style="margin-left: 25px;"></div>
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<hr>
+
+
+<div class="TypeCardCreator">
+
+
+<div class="imageWithText" style="margin-left: 430px; margin-top: 500px;">
+  <img src="СardDefault.png" width="380px" height="250px" id="SaveDesign">
+  <input type="text" placeholder="XXXX XXXX XXXX XXXX" style="bottom: 64px; width: 250px; border: none; font-size: 20px;" id="InputNumberCard" >
+  <input type="text" placeholder="Ahmed Lyanov" class="NumbersCard" id="InputNameCard" style=" bottom: 25px; margin-left: 20px; width: 110px; border: none; font-size: 15px;"></input>
+  <img class="Operators" src="" width="100px" height="50px" id="LogoOperators" style="margin-left: 280px;">
+</img>
+  
+</div>
+
+
+
+
+
+<div class="CreatTable" style="background-color: rgb(158, 155, 155); width: 1065px; height: 330px; margin-top: 80px; margin-left: 80px; border-radius: 20px; display: flex;">
+
+<div class="TableNameNumber">
+
+  <div class="Name">
+    <p style="padding-top: 40px ; margin-left: 101px; font-family: sans-serif;">Ваше имя:</p>
+    <input type="text" id="NameInfo" style="margin-left: 50px; background-color: rgb(76, 73, 73); color: white; ">
+  </div>
+
+
+  <div class="Number">
+    <p style="padding-top: 40px ; margin-left: 50px; font-family: sans-serif;">Придумайте 16 цифр: <p> <p style="color: red;">(Букв и прочих символов не должно быть)</p> </p>
+    <input type="text" id="Number" style="margin-left: 50px; background-color: rgb(76, 73, 73); color: white;">
+  </div>
+
+
+</div>
+
+
+
+
+
+<div class="TableLogoCreat">
+
+
+
+<div class="NoteLogo" style="background-color: rgba(119, 117, 117, 0.452); margin-left: 688px; width: 150px; height: 330px; border-radius: 20px;">
+
+  <div style="margin-left: 30px; cursor: pointer;"> 
+    <img onclick="SetLogo()" src="mir.png" width="100px" height="50px"> 
+  
+  </div>
+
+  <div style="margin-left: 30px; cursor: pointer; margin-top: 10px;"> 
+    <img onclick="SetLogo2()" src="mc.png" width="100px" height="50px"> 
+  
+  </div>
+  
+  <div style="margin-left: 30px; cursor: pointer; margin-top: 10px;"> 
+    <img onclick="SetLogo3()" src="Visa-Logo.png" width="100px" height="50px"> 
+  
+  </div>
+
+    
+  <div style="margin-left: 30px; cursor: pointer; margin-top: 10px;"> 
+    <img onclick="SetLogo4()" src="PayPal.png" width="100px" height="50px"> 
+  
+  </div>
+
+   
+  <div style="margin-left: 30px; cursor: pointer; margin-top: 10px;"> 
+    <img onclick="SetLogo5()" src="Qiwi_Logo.png" width="100px" height="50px"> 
+  
+  </div>
+
+</div>
+                  <div class="ButtonsCard" style="display: flex;">
+                       <button style="width: 150px; height: 50px; background-color: rgb(255, 214, 8); border-radius: 20px; margin-left: 622px; margin-top: 40px;" onclick="SaveCard()">Подтвердить</button>
+
+                    
+                  </div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</main>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+.CardPhoto1 img:active{
+    border: 3px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: border-width 1.3s;
+}
+
+.CardPhoto2 img:active{
+    border: 3px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: border-width 1.3s;
+}
+
+.CardPhoto3 img:active{
+    border: 3px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: border-width 1.3s;
+}
+
+
+.CardPhoto4 img:active{
+    border: 3px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: border-width 1.3s;
+}
+
+
+
+
+.imageWithText {
+    position: relative;/
+}
+
+.imageWithText img {
+    display: block; 
+   
+}
+
+.imageWithText input, .imageWithText.NumbersCard, .imageWithText img{
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px; 
+    color: white; 
+    background: rgba(10, 3, 3, 0); 
+    padding: 5px; 
+}
+
+.imageWithText input{
+    bottom: 70px;
+    width: 250px;
+    margin-left: 20px
+}
+
+
+.Operators{
+    margin-left: 300px;
+}
+
+
+
+.ResultCard{
+    margin-left: 710px;
+    margin-top: 330px;
+  
+
+}
+
+.ResultCard img{
+    width: 380px;
+    height: 250px;
+}
+
+
+
+.ResultCard {
+    position: relative;
+}
+
+.ResultCard img {
+    display: block; 
+   
+}
+
+.ResultCard p, .ResultCard img{
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px; 
+    color: white; 
+    background: rgba(10, 3, 3, 0); 
+    padding: 5px; 
+}
+
+.ResultCard .ResultText1{
+    bottom: 45px;
+    width: 250px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.ResultCard .ResultText{
+    bottom: 7px;
+    width: 250px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+
+
+.CardContainer{
+    width: 1847px;
+    height: 100px;
+    background-color: rgb(246, 255, 0);
+    border-radius: 20px;
+}
+
+
+.Congratuiotnus{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+
+
